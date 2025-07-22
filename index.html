@@ -1,93 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wunderlust Travel</title>
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <a href="#main" class="skip-link">Skip to main content</a>
 
   <header>
-    <img src="logo.png" alt="Wunderlust Travel logo" />
+    <img src="images/logo-L.png" alt="Wunderlust Travel Logo">
     <h1>Let Wunderlust Travel help you plan the trip of your dreams!</h1>
     <nav>
       <ul>
-        <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#inspirations">Inspirations</a></li>
-        <li><a href="#special">Special</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Inspirations</a></li>
+        <li><a href="#">Special</a></li>
+        <li><a href="#">Contact Us</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="main-content">
-    <section id="destinations">
-      <h2>Majorca</h2>
+  <main id="main">
+    <section aria-labelledby="majorca-heading">
+      <h2 id="majorca-heading">Majorca</h2>
       <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city...</p>
+
       <picture>
-        <source srcset="majorca-waves-320.png 320w, majorca-waves-780.png 780w, majorca-waves-1024.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
-        <img src="majorca-waves.png" alt="Waves in Majorca" />
+        <source srcset="images/majorca-waves-S.png 320w, images/majorca-waves-M.png 780w, images/majorca-waves-L.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
+        <img src="images/majorca-waves-L.png" alt="Waves in Majorca">
       </picture>
       <picture>
-        <source srcset="majorca-beach-320.png 320w, majorca-beach-780.png 780w, majorca-beach-1024.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
-        <img src="majorca-beach.png" alt="Beach in Majorca" />
+        <source srcset="images/majorca-beach-S.png 320w, images/majorca-beach-M.png 780w, images/majorca-beach-L.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
+        <img src="images/majorca-beach-L.png" alt="Beach in Majorca">
       </picture>
       <picture>
-        <source srcset="majorca-cove-320.png 320w, majorca-cove-780.png 780w, majorca-cove-1024.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
-        <img src="majorca-cove.png" alt="Cove in Majorca" />
+        <source srcset="images/majorca-cove-S.png 320w, images/majorca-cove-M.png 780w, images/majorca-cove-L.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
+        <img src="images/majorca-cove-L.png" alt="Cove in Majorca">
       </picture>
     </section>
 
-    <section id="plan-trip">
+    <section>
       <h2>Plan Your Trip</h2>
       <article>
         <h3>How to Get There</h3>
-        <!-- SVG and link placeholder -->
+        <a href="#" title="Search for flights">Search Flights</a>
       </article>
       <article>
         <h3>Places to Stay</h3>
-        <!-- SVG and link placeholder -->
+        <a href="#" title="Search for Hotels">Search Hotels</a>
       </article>
       <article>
-        <h3>Things to Do</h3>
-        <!-- SVG and link placeholder -->
+        <h3>Things to do</h3>
+        <a href="#" title="Search for Activities">Search Activities</a>
       </article>
       <article>
         <h3>Where to Eat</h3>
-        <!-- SVG and link placeholder -->
+        <a href="#" title="Search for Restaurants">Search Restaurants</a>
       </article>
     </section>
 
-    <section id="testimonials">
-      <h2>Testimonials</h2>
+    <section aria-labelledby="testimonials-heading">
+      <h2 id="testimonials-heading">Testimonials</h2>
       <article>
         <h3>Miranda Blake</h3>
-        <img src="miranda-blake.png" alt="Portrait of Miranda Blake" />
+        <picture>
+          <source srcset="images/miranda-blake-S.png 320w, images/miranda-blake-M.png 780w, images/miranda-blake-L.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
+          <img src="images/miranda-blake-L.png" alt="Miranda Blake">
+        </picture>
         <p>Traveling From: London, England</p>
         <blockquote>“I traveled here for business, but my stay was extended. Now it is my home.”</blockquote>
       </article>
       <article>
         <h3>Max Winter</h3>
-        <img src="max-winter.png" alt="Portrait of Max Winter" />
+        <picture>
+          <source srcset="images/max-winter-S.png 320w, images/max-winter-M.png 780w, images/max-winter-L.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
+          <img src="images/max-winter-L.png" alt="Max Winter">
+        </picture>
         <p>Traveling From: Berlin, Germany</p>
         <blockquote>“Great escape from my reality. Beautiful sunsets, wonderful people, great beer.”</blockquote>
       </article>
-      <article>
-        <h3>Inés Villegoes</h3>
-        <img src="ines-villegoes.png" alt="Portrait of Inés Villegoes" />
-        <p>Traveling From: Barcelona, Spain</p>
-        <blockquote>“A very safe environment for all travelers.”</blockquote>
-      </article>
-      <article>
-        <h3>Carmen Lorenzo</h3>
-        <img src="carmen-lorenzo.png" alt="Portrait of Carmen Lorenzo" />
-        <p>Traveling From: Madrid, Spain</p>
-        <blockquote>“Live, laugh, love-- everything you need in Majorca.”</blockquote>
-      </article>
     </section>
 
-    <section id="about">
+    <section>
       <h2>About Your Destination</h2>
       <ul>
         <li><strong>Size:</strong> 1,405 miles squared</li>
@@ -97,47 +92,47 @@
       </ul>
     </section>
 
-    <section id="contact">
+    <section>
       <h2>Contact Us</h2>
-      <form action="#" method="post">
-        <label for="fname">First Name</label>
-        <input id="fname" name="fname" type="text" placeholder="Enter first name" required />
+      <form>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Enter first name">
 
-        <label for="lname">Last Name</label>
-        <input id="lname" name="lname" type="text" placeholder="Enter last name" required />
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Enter last name">
 
-        <label for="contact-method">Contact Method</label>
-        <select id="contact-method" name="contact-method">
-          <option>Email</option>
-          <option>Text</option>
-          <option>Phone</option>
-        </select>
+        <fieldset>
+          <legend>Preferred Contact Method</legend>
+          <label><input type="radio" name="contact" value="email"> Email</label>
+          <label><input type="radio" name="contact" value="text"> Text</label>
+          <label><input type="radio" name="contact" value="phone"> Phone</label>
+        </fieldset>
 
         <label for="email">Email Address</label>
-        <input id="email" name="email" type="email" placeholder="Enter email" />
+        <input type="email" id="email" name="email" placeholder="Enter Email">
 
         <label for="phone">Phone Number</label>
-        <input id="phone" name="phone" type="tel" placeholder="Enter telephone number" />
+        <input type="tel" id="phone" name="phone" placeholder="Enter telephone number">
 
         <label for="destination">Destination</label>
         <select id="destination" name="destination">
-          <option>Barcelona</option>
-          <option>Granada</option>
-          <option>Ibiza</option>
-          <option>Madrid</option>
-          <option>Majorca</option>
-          <option>Seville</option>
-          <option>Tenerife</option>
-          <option>Valencia</option>
+          <option value="barcelona">Barcelona</option>
+          <option value="granada">Granada</option>
+          <option value="ibiza">Ibiza</option>
+          <option value="madrid">Madrid</option>
+          <option value="majorca">Majorca</option>
+          <option value="seville">Seville</option>
+          <option value="tenerife">Tenerife</option>
+          <option value="valencia">Valencia</option>
         </select>
 
-        <label for="travel-time">Travel Time</label>
-        <select id="travel-time" name="travel-time">
-          <option>Fall</option>
-          <option>Winter</option>
-          <option>Spring</option>
-          <option>Summer</option>
-          <option>Flexible</option>
+        <label for="season">Travel Time</label>
+        <select id="season" name="season">
+          <option value="fall">Fall</option>
+          <option value="winter">Winter</option>
+          <option value="spring">Spring</option>
+          <option value="summer">Summer</option>
+          <option value="flexible">Flexible</option>
         </select>
 
         <button type="submit">Submit</button>
@@ -148,8 +143,10 @@
   <footer>
     <p>&copy; 2021 Wunderlust</p>
     <nav>
-      <a href="#">Privacy Statement</a> |
-      <a href="#">Terms of Service</a>
+      <ul>
+        <li><a href="#">Privacy Statement</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
     </nav>
   </footer>
 </body>
